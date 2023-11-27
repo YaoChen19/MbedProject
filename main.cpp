@@ -59,22 +59,22 @@ std::vector<float> yAccelData;
 std::vector<float> zAccelData;
 
 const float TEMP_MIN = -10.0; // Minimum temperature in °C
-const float TEMP_MAX = 10.0;  // Maximum temperature in °C
+const float TEMP_MAX = 50.0;  // Maximum temperature in °C
 
 const float HUMIDITY_MIN = 25.0; // Minimum humidity in %
-const float HUMIDITY_MAX = 25.0;  // Maximum humidity in %
+const float HUMIDITY_MAX = 75.0;  // Maximum humidity in %
 
 const float LIGHT_MIN = 0.0;   // Minimum light in %
-const float LIGHT_MAX = 0.0; // Maximum light in %
+const float LIGHT_MAX = 100.0; // Maximum light in %
 
 const float MOISTURE_MIN = 0.0;   // Minimum soil moisture in %
-const float MOISTURE_MAX = 0.0; // Maximum soil moisture in %
+const float MOISTURE_MAX = 100.0; // Maximum soil moisture in %
 
 const float ACCELEROMETER_MIN = -19.62; 
-const float ACCELEROMETER_MAX = -19.62; 
+const float ACCELEROMETER_MAX = 19.62; 
 
 const uint16_t COLOUR_MIN = 0;   
-const uint16_t COLOUR_MAX = 0; 
+const uint16_t COLOUR_MAX = 65535; 
 
 volatile Mode currentMode = TEST_MODE;
 
